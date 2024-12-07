@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solar System</title>
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+                background-color: black;
+            }
+            .solar-system {
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .sun {
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background-color: yellow;
+                border-radius: 50%;
+                box-shadow: 0 0 50px yellow;
+            }
+            .planet {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                background-color: #ccc;
+                border-radius: 50%;
+            }
+            .orbit {
+                position: absolute;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 50%;
+            }
+            .planet1 { background-color: red; }
+            .planet2 { background-color: blue; }
+            .planet3 { background-color: green; }
+            .planet4 { background-color: gray; }
+            .planet5 { background-color: orange; }
+            .planet6 { background-color: cyan; }
+            .planet7 { background-color: lightgreen; }
+            .planet8 { background-color: violet; }
+    
+            @keyframes rotateOrbit1 {
+                0% { transform: rotate(0deg) translateX(150px); }
+                100% { transform: rotate(360deg) translateX(150px); }
+            }
+            @keyframes rotateOrbit2 {
+                0% { transform: rotate(0deg) translateX(250px); }
+                100% { transform: rotate(360deg) translateX(250px); }
+            }
+            @keyframes rotateOrbit3 {
+                0% { transform: rotate(0deg) translateX(350px); }
+                100% { transform: rotate(360deg) translateX(350px); }
+            }
+            @keyframes rotateOrbit4 {
+                0% { transform: rotate(0deg) translateX(450px); }
+                100% { transform: rotate(360deg) translateX(450px); }
+            }
+            @keyframes rotateOrbit5 {
+                0% { transform: rotate(0deg) translateX(550px); }
+                100% { transform: rotate(360deg) translateX(550px); }
+            }
+            @keyframes rotateOrbit6 {
+                0% { transform: rotate(0deg) translateX(650px); }
+                100% { transform: rotate(360deg) translateX(650px); }
+            }
+            @keyframes rotateOrbit7 {
+                0% { transform: rotate(0deg) translateX(750px); }
+                100% { transform: rotate(360deg) translateX(750px); }
+            }
+            @keyframes rotateOrbit8 {
+                0% { transform: rotate(0deg) translateX(850px); }
+                100% { transform: rotate(360deg) translateX(850px); }
+            }
+    
+            .orbit1 { animation: rotateOrbit1 20s linear infinite; }
+            .orbit2 { animation: rotateOrbit2 30s linear infinite; }
+            .orbit3 { animation: rotateOrbit3 40s linear infinite; }
+            .orbit4 { animation: rotateOrbit4 50s linear infinite; }
+            .orbit5 { animation: rotateOrbit5 60s linear infinite; }
+            .orbit6 { animation: rotateOrbit6 70s linear infinite; }
+            .orbit7 { animation: rotateOrbit7 80s linear infinite; }
+            .orbit8 { animation: rotateOrbit8 90s linear infinite; }
+        </style>
+    </head>
+    <body>
+        <div class="solar-system">
+            <div class="sun"></div>
+    
+            <div class="orbit orbit1">
+                <div class="planet planet1"></div>
+            </div>
+    
+            <div class="orbit orbit2">
+                <div class="planet planet2"></div>
+            </div>
+    
+            <div class="orbit orbit3">
+                <div class="planet planet3"></div>
+            </div>
+    
+            <div class="orbit orbit4">
+                <div class="planet planet4"></div>
+            </div>
+    
+            <div class="orbit orbit5">
+                <div class="planet planet5"></div>
+            </div>
+    
+            <div class="orbit orbit6">
+                <div class="planet planet6"></div>
+            </div>
+    
+            <div class="orbit orbit7">
+                <div class="planet planet7"></div>
+            </div>
+    
+            <div class="orbit orbit8">
+                <div class="planet planet8"></div>
+            </div>
+        </div>
+    
+    </body>
+    </html>
+    
+</body>
+</html>
